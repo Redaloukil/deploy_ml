@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<ORG_NAME>](https://circleci.com/gh/Redaloukil/deploy_ml.svg?style=svg)](<LINK>)
 
 ## Introduction 
 
