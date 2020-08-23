@@ -22,8 +22,7 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            pip install pylint
-            pip install --upgrade pip &&\ pip install -r requirements.txt
+            pip3 install --upgrade pip &&\ pip3 install -r requirements.txt
             # Install hadolint
             wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\ chmod +x /bin/hadolint
       - save_cache:
