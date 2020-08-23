@@ -1,0 +1,2 @@
+NAME    READY   STATUS             RESTARTS   AGE
+model   0/1     ImagePullBackOff   0          44s
