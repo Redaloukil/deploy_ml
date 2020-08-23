@@ -1,4 +1,5 @@
-[(https://circleci.com/gh/Redaloukil/deploy_ml.svg?style=svg)]
+![redaloukil](https://circleci.com/gh/redaloukil/deploy_ml.svg?style=svg)
+
 
 ## Introduction 
 
