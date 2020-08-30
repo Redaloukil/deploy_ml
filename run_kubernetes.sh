@@ -4,7 +4,7 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="redaloukil/model"
+dockerpath="redaloukil/model:test"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
@@ -16,4 +16,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward model 80:80  
+kubectl port-forward model 80 8000

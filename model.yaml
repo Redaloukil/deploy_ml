@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: model
+spec:
+  containers:
+    - name: model
+      image: redaloukil/model:test
+  imagePullSecrets:
+    - name: regcred2

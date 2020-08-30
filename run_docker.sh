@@ -11,3 +11,4 @@ docker images
 # Step 3: 
 # Run flask app
 docker run model
+
